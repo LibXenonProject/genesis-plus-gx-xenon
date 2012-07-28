@@ -87,7 +87,7 @@ static uint16_t WPAD_ButtonsDown(int ictrl) {
 //        btn |= WPAD_CLASSIC_BUTTON_START;
 //    }
 //
-//    if (PUSHED(select)) {
+//    if (PUSHED(back)) {
 //        btn |= WPAD_CLASSIC_BUTTON_BACK;
 //    }
 //
@@ -153,7 +153,7 @@ static uint16_t WPAD_ButtonsUp(int ictrl) {
 //        btn |= WPAD_CLASSIC_BUTTON_START;
 //    }
 //
-//    if (RELEASED(select)) {
+//    if (RELEASED(back)) {
 //        btn |= WPAD_CLASSIC_BUTTON_BACK;
 //    }
 //
@@ -219,7 +219,7 @@ static uint16_t WPAD_ButtonsHeld(int ictrl) {
 //        btn |= WPAD_CLASSIC_BUTTON_START;
 //    }
 //
-//    if (HELD(select)) {
+//    if (HELD(back)) {
 //        btn |= WPAD_CLASSIC_BUTTON_BACK;
 //    }
 //
@@ -285,7 +285,7 @@ static uint16_t PAD_ButtonsDown(int ictrl) {
         btn |= PAD_BUTTON_START;
     }
 
-    if (PUSHED(select)) {
+    if (PUSHED(back)) {
         btn |= PAD_BUTTON_BACK;
     }
 
@@ -351,7 +351,7 @@ static uint16_t PAD_ButtonsUp(int ictrl) {
         btn |= PAD_BUTTON_START;
     }
 
-    if (RELEASED(select)) {
+    if (RELEASED(back)) {
         btn |= PAD_BUTTON_BACK;
     }
 
@@ -417,7 +417,7 @@ static uint16_t PAD_ButtonsHeld(int ictrl) {
         btn |= PAD_BUTTON_START;
     }
 
-    if (HELD(select)) {
+    if (HELD(back)) {
         btn |= PAD_BUTTON_BACK;
     }
 

@@ -64,6 +64,10 @@ static void UGUI();
 GXColor ColorGrey = {104, 104, 104, 255};
 GXColor ColorGrey2 = {49, 49, 49, 255};
 
+void usleep(int i) {
+    udelay(i);
+}
+
 /****************************************************************************
  * ResumeGui
  *

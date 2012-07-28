@@ -29,7 +29,7 @@ void SYSInputUpdate() {
 
         /*
                 if(ctrl[joynum].logo){
-                    if(old_ctrl[joynum].select != ctrl[joynum].select){
+                    if(old_ctrl[joynum].back != ctrl[joynum].back){
                         SYSSaveState();
                     }
                     if(old_ctrl[joynum].start != ctrl[joynum].start){
@@ -62,7 +62,7 @@ void SYSInputUpdate() {
                     if (ctrl[joynum].b) input.pad[joynum] |= INPUT_C;
 
                     if (ctrl[joynum].start) input.pad[joynum] |= INPUT_START;
-                    if (ctrl[joynum].select) input.pad[joynum] |= INPUT_MODE;
+                    if (ctrl[joynum].back) input.pad[joynum] |= INPUT_MODE;
                     if (ctrl[joynum].up) input.pad[joynum] |= INPUT_UP;
                     else
                         if (ctrl[joynum].down) input.pad[joynum] |= INPUT_DOWN;
@@ -76,7 +76,7 @@ void SYSInputUpdate() {
                     if (ctrl[joynum].a) input.pad[joynum] |= INPUT_A;
                     if (ctrl[joynum].b) input.pad[joynum] |= INPUT_B;
                     if (ctrl[joynum].start) input.pad[joynum] |= INPUT_START;
-                    if (ctrl[joynum].select) input.pad[joynum] |= INPUT_MODE;
+                    if (ctrl[joynum].back) input.pad[joynum] |= INPUT_MODE;
                     if (ctrl[joynum].up) input.pad[joynum] |= INPUT_UP;
                     else
                         if (ctrl[joynum].down) input.pad[joynum] |= INPUT_DOWN;
@@ -94,7 +94,7 @@ void SYSInputUpdate() {
                     if (ctrl[joynum].x) input.pad[joynum] |= INPUT_X;
                     if (ctrl[joynum].y) input.pad[joynum] |= INPUT_Y;
                     if (ctrl[joynum].lb) input.pad[joynum] |= INPUT_Z;
-                    if (ctrl[joynum].select) input.pad[joynum] |= INPUT_MODE;
+                    if (ctrl[joynum].back) input.pad[joynum] |= INPUT_MODE;
 
                     if (ctrl[joynum].up) input.pad[joynum] |= INPUT_UP;
                     else

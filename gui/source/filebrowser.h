@@ -12,8 +12,8 @@
 
 #include <unistd.h>
 #include <xetypes.h>
-#include <diskio/diskio.h>
-#include <newlib/vfs.h>
+#include <diskio/disc_io.h>
+#include <dirent.h>
 
 #define MAXJOLIET 255
 #define MAXDISPLAY 45
